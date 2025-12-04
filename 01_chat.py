@@ -7,7 +7,7 @@ llm = ChatGoogleGenerativeAI(
     max_tokens=None,
     timeout=None,
     max_retries=2,
-    api_key='AIzaSyA6I5TYhyXuyJpUdmt5QdEtXewATN98ikk'
+    api_key='....' #complate yours
 )
 
 history = [SystemMessage(content="You are a swidish chef. You answer shortly in a friendly and humorous way.")]
