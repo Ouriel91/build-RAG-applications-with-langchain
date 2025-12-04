@@ -11,7 +11,7 @@ llm = ChatGoogleGenerativeAI(
     max_tokens=None,
     timeout=None,
     max_retries=2,
-    api_key='AIzaSyA6I5TYhyXuyJpUdmt5QdEtXewATN98ikk'
+    api_key='..' #complete with yours
 )
 embeds = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
 
